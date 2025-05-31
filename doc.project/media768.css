@@ -193,7 +193,7 @@ body{
     
     background-color: black;
     color: white;
-    height: 270px;
+    height: 300px;
     
  }
  
@@ -202,18 +202,18 @@ body{
  
  .HillCity{
     font-size: 0.7em;
-    width: 300px;
+    width: 280px;
     height: 25vh;
     float: inline-start;
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 30px;
  
  }
  
  
  .HillCity_1{
     font-size: 0.7em;
-     width: 270px;
+     width: 260px;
      height: 16vh;
     float: inline-start;
     margin-top: 60px;
@@ -223,7 +223,7 @@ body{
  
  .HillCity_2{
     font-size: 0.7em;
-      width: 170px;
+      width: 160px;
       height: 15vh;
       float: inline-start;
       margin-top: 60px;
