@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+     <link rel="stylesheet" href="obi.css">
+      <title>login</title>
+</head>
+<body>
+
+        <!--THIS IS THE NAVIGATION MENU-->
+        <nav class="nav_menu">
+          <img src="Logo.png" class="logo">
+           
+  
+          
+    <ul class="nav_list">
+             
+              <li><a href="doc1.html">HOME</a></li>
+              <li><a href="#">ABOUT HCF</a></li>
+              <li><a href="#">LOGIN</a></li>
+              <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              
+            
+          
+        </ul>
+
+        <button class="login" popovertarget="login_popover">LOGIN</button>
+    </nav>
+
+    <form action="https://api.web3forms.com/submit"  method="POST" id="login_popover" popover>
+  
+      <h1>SIGN IN</h1>
+       <input type="hidden" name="access_key" value="ea70ada4-93f3-4dc5-84ea-ba702c8f2cad">
+         <input id="text"  name="name" type="text"   placeholder="user name" required>
+          <input id="text"  name="email" type="email"   placeholder="email" required>
+         <textarea name="message" id="text" placeholder="message" required ></textarea>
+        <input id="tex" type="checkbox" ><a href="">agree policy....</a>
+
+        <button id="enter" type="submit">submit</button>
+    </form>
+     
+</body>
+</html>
